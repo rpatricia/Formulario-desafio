@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* vh -> view heigth port */
+/* vw -> view width port */
 body {
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   background-color: darkcyan;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
@@ -19,18 +20,20 @@ body {
   margin: 0 auto;
 }
 
+form {
+  margin: 0 auto;
+  padding: 0 2%;
+  max-width: 50%; 
+}
+
 #titulo {
+  text-align: center;
   font-family: sans-serif;
   color: #000;
-  margin-left: 7%;
 }
 
 #dados {
   display: inline-block;
-}
-
-fieldset {
-  border: 0;
 }
 
 input,
@@ -43,11 +46,6 @@ button {
   display: inline-block;
 }
 
-.fildeset.grupo {
-  float: left;
-
-  margin-right: 1em;
-}
 .botao {
   font-size: 1em;
   background: rgb(255, 255, 255);

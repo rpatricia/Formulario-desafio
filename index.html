@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-
     <title>Formulário</title>
 </head>
 
-<body>
-
-    <div>
-        <h1 id="titulo">JOBS NET</h1>
-    </div>
+<body>    
     <div class="container">
-        <form>
+        <div>
+            <h1 id="titulo">JOBS NET</h1>
+        </div>
+        <form>         
+            
             <div>
                 <h2>CADASTRE SEU CURRÍCULO</h2>
                 <br>
@@ -25,7 +24,7 @@
             <div>
                 <h3>DADOS PESSOAIS</h3><br>
             </div>
-            <fieldset class="grupo">
+            <div class="grupo">
                 <div class="dados">
                     <label for> Nome Completo</label><br>
                     <input type="text" , name="Nome Completo" id=" Nome Completo class"="input user" required>
@@ -39,10 +38,10 @@
                     <input type="text" , size="20" nome="Cargo Pretendido" id="Cargo Pretendido"
                         placeholder="Digite o cargo Pretendido" required>
                 </div>
-            </fieldset>
+            </div>
             <br>
     
-            <fieldset class="grupo">
+            <div class="grupo">
                 <div class="dados">
                     <label>Data de Nascimento:</label><br>
     
@@ -62,7 +61,7 @@
                     </select>
                     <br>
                 </div>
-            </fieldset>
+            </div>
             <br>
     
             <div class="dados">
@@ -87,7 +86,7 @@
     
             </div>
             <br>
-            <fieldset class="grupo">
+            <div class="grupo">
                 <div class="dados">
                     <label for>N°</label>
                     <input type="number" , name="numero" required>
@@ -107,9 +106,9 @@
     
     
                 </div>
-            </fieldset> <br>
+            </div> <br>
     
-            <fieldset class="grupo">
+            <div class="grupo">
                 <div class="dados">
     
                     <label for>Cep</label><br>
@@ -124,9 +123,9 @@
     
                 </div>
                 <br>
-            </fieldset>
+            </div>
     
-            <fieldset class="grupo">
+            <div class="grupo">
                 <div class="dados">
                     <label for="Telefone Fixo 2">Telefone Fixo 2 :</label><br>
     
@@ -139,9 +138,9 @@
                     <label for="Celular">Celular</label><br>
                     <input type="number" required>
                 </div>
-            </fieldset>
+            </div>
             <br>
-            <fieldset class="grupo">
+            <div class="grupo">
     
                 <div class="dados">
                     <label for="Contato">Contato</label><br>
@@ -154,14 +153,14 @@
                     <input type="e-mail" , name="e-mail" id="e-mail" required>
     
                 </div>
-            </fieldset>
+            </div>
             <br>
     
             <div>
                 <h2 id="titulo">DOCUMENTOS</h2><br>
             </div>
     
-            <fieldset class="grupo">
+            <div class="grupo">
                 <div class="dados">
                     <label for="identidade">Identidade</label><br>
                     <input type="identiade" , number="identiade" id="identidade" required>
@@ -184,7 +183,7 @@
     
                     </select>
                 </div>
-            </fieldset>
+            </div>
     
             <br>
             <div class="dados">
@@ -198,6 +197,7 @@
             <div>
                 <button class="botao" type="submit">enviar Formulário</button>
             </div>
+        
         </form>
     </div>  
 </body>
