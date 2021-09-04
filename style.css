@@ -1,59 +1,60 @@
-*{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#titulo{
-    font-family: sans-serif;
-    color: #000;
-    margin-left: 7%;
+body {
+  height: 100vh;
+  width: 100vh;
+  background-color: darkcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  color: black;
+  justify-content: center;
 }
 
-#dados{
-    display: inline-block;
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-fieldset{
-    border: 0;
+#titulo {
+  font-family: sans-serif;
+  color: #000;
+  margin-left: 7%;
 }
 
-body{
-    background-color: darkcyan;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    color: black;
-    margin-left: 30%;
-    margin-top: 1.5%;
-    justify-content: center;
+#dados {
+  display: inline-block;
 }
 
-input, select, button {
-    border-radius: 5px ;
+fieldset {
+  border: 0;
 }
 
-.dados{
-display: inline-block;
+input,
+select,
+button {
+  border-radius: 5px;
 }
 
-.fildeset.grupo{
-    float: left;
+.dados {
+  display: inline-block;
+}
 
-    margin-right: 1em;
+.fildeset.grupo {
+  float: left;
 
+  margin-right: 1em;
 }
 .botao {
-    font-size: 1em;
-    background: rgb(255, 255, 255);
-    border: 0;
-    margin-bottom: 1em;
-    color: rgb(0, 0, 0);
-    padding: 0.2em 0.6em;
-    box-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
-    text-shadow: 0.5px 0.5px 0.5px #000;
-    position: absolute;
-    top: 155%;
-    left: 36%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  font-size: 1em;
+  background: rgb(255, 255, 255);
+  border: 0;
+  margin-top: 1em;
+  color: rgb(0, 0, 0);
+  padding: 0.2em 0.6em;
+  box-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
+  text-shadow: 0.5px 0.5px 0.5px #000;
 }
-
